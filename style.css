@@ -3,6 +3,46 @@
     src: url(fuentes/LiberationSerif-Regular.ttf);
 }
 
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+.Encabezado {
+    margin: auto;
+    display: flex;
+    border-style: solid;
+    width: 30%;
+    height: 150px;
+    border-width: 3px 3px;
+    background-color: white;
+    position: relative;
+    border-color: black;
+}
+
+div h2 {
+    position: absolute;
+    text-align: center;
+    padding-left: 20%;
+    font-family: Liberation-Serif;
+    font-size: 20pt;
+}
+
+.Carrera {
+    padding-top: 30px;
+}
+
+.Profesor {
+    padding-top: 60px;
+}
+
+.Materia {
+    padding-top: 90px;
+}
+
 h1 {
     font-family: Liberation-Serif;
     font-size: 20pt;
