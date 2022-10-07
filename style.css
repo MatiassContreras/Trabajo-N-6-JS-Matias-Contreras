@@ -7,15 +7,16 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .Encabezado {
     margin: auto;
     display: flex;
     border-style: solid;
-    width: 30%;
+    width: 40%;
     height: 150px;
     border-width: 3px 3px;
     background-color: white;
@@ -34,9 +35,26 @@
     display: grid;
     grid-column: 2/3;
     text-align: start;
+    background-color: aqua;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 3px 0px 3px;
+}
+
+.main p {
+    display: grid;
+    grid-column: 2/3;
+    text-align: start;
+    background-color: aqua;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 3px 0px 3px;
 }
 
 .item1 {
+    display: grid;
+    grid-column: 2/3;
+    text-align: start;
     font-family: Liberation-Serif;
     font-size: 20pt;
 }
@@ -60,7 +78,25 @@ div h2 {
     padding-top: 90px;
 }
 
-h1 {
-    font-family: Liberation-Serif;
-    font-size: 20pt;
+.punto10 {
+    display: grid;
+    grid-template-columns: 35% 30% auto;
+    grid-template-rows: 20px 20px 35px 20px 35px 35px;
+    margin: auto;
+}
+
+.punto10 input {
+    grid-column: 2/3;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 3px 3px 3px;
+}
+
+.punto10 p {
+    grid-column: 2/3;
+    background-color: aqua;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 3px 0px 3px;
+    text-align: center;
 }
