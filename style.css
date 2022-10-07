@@ -23,9 +23,26 @@
     border-color: black;
 }
 
+.main {
+    display: grid;
+    grid-template-columns: 30% 40% auto;
+    margin: auto;
+    grid-template-rows: repeat(auto);
+}
+
+.main h3 {
+    display: grid;
+    grid-column: 2/3;
+    text-align: start;
+}
+
+.item1 {
+    font-family: Liberation-Serif;
+    font-size: 20pt;
+}
+
 div h2 {
     position: absolute;
-    text-align: center;
     padding-left: 20%;
     font-family: Liberation-Serif;
     font-size: 20pt;
