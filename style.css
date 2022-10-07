@@ -2,3 +2,8 @@
     font-family: Liberation-Serif;
     src: url(fuentes/LiberationSerif-Regular.ttf);
 }
+
+h1 {
+    font-family: Liberation-Serif;
+    font-size: 20pt;
+}
